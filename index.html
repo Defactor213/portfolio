@@ -13,13 +13,15 @@
   <link rel="stylesheet" href="src/style.css">
 </head>
 
-<body onload="force_wait()"></body>
+<body onload="force_wait()">
 
-<div id="loader"></div>
+<div class="spinner-border" role="status" id="loading">
+  <span class="visually-hidden">Loading...</span>
+</div>
 
-  <div style="display:none;" id="myDiv" class="animate-bottom">
+  <div style="display:none;" id="main" class="animate-bottom">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Personal Logo Here</a>
+      <a class="navbar-brand" href="#">Eric's Site</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -38,6 +40,7 @@
         </ul>
       </div>
     </nav>
+  </div> 
   
     <h1> Hello World! </h1>
     <p>Welcome to my portfolio website, look forward for new things to be added!</p>
