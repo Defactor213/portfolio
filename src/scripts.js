@@ -3,6 +3,6 @@ function force_wait() {
 }
 
 function showPage() {
-    document.getElementById("loading").style.display = "none";
-    document.getElementById("main").style.display = "block";
+    document.getElementById("loader").style.display = "none";
+    document.getElementById("myDiv").style.display = "block";
 }
