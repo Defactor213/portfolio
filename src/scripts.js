@@ -6,7 +6,7 @@ function myFunction() {
 
 var myVar;
 
-function myFunction() {
+function fun1() {
     myVar = setTimeout(showPage, 3000);
 }
 
