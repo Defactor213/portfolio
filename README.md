@@ -2,7 +2,7 @@
 This is my portfolio website repo. Its meant to be deployed to github pages, so it is entirely static, and relies on HTML, CSS and JavaScript. I will be using Bootstrap as the frontend library. 
 
 ## Features to be implemented
-- [ ] Loading screen
+- [x] Loading wheel
 - [ ] Dark/Light mode toggle
 - [ ] Parallex Scrolling
 - [ ] Hobbies Carousell
